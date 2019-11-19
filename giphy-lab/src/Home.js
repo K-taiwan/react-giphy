@@ -9,10 +9,10 @@ class Home extends Component {
   render() {
     return (
       <>
-        <div>
+        <div className='jumbotron text-center'>
           <h1>React Giphy</h1>
-          <SearchContainer />
         </div>
+          <SearchContainer />
       </>
     );
   }
